@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formvalidation.css">
+</head>
+<body>
+    <p id="likely"></p>
+  <div class="big-container"> 
+  <div class="div1">
+    <form action="submit" method="post" name="contactform" onsubmit=" myshowmy()">
+  <fieldset>
+    <legend>Enquiry</legend>
+   <input type="text" name="fname" placeholder="Fullname"><br>
+  <input type="phone" name="phone" placeholder="Phone No."><br>
+  <input type="email" name="Email" placeholder="Email"><br>
+<textarea rows="10" cols="40" name="message" placeholder="message goes here"></textarea><br>
+<br>
+<button id="bttn">Submit</button>
+<ul>
+    <br>
+  <p><input type="checkbox" name="dataprivacy"><span> Data privacy laws applied</span> </p>
+
+</ul>
+  </fieldset>
+  </form>
+  </div>
+  <script src="formvalidation.js"></script>
+</body>
+</html>
